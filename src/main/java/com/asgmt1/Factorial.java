@@ -17,6 +17,10 @@ public class Factorial {
             fNum *= i;
            if (i < num) {
                 System.out.print(i + " x ");
+                if(i > 9){
+                    System.out.println("...x " + num + " = " );
+                    break;
+                }
             } else {
                 System.out.print(i + " = ");
             }
